@@ -46,4 +46,8 @@ padding: 0 0 4.5rem !important;
 width: 60%;
 transform: rotate(25deg);
 float: right;
+}
+
+#features{
+padding: 7% 10%;
     }

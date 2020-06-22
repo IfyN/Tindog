@@ -16,6 +16,10 @@ h1{
     font-weight: 900 !important;
 }
 
+p{
+    color: grey;
+}
+
 /*Navigation bar*/
 .navbar{
 padding: 0 0 4.5rem !important;
@@ -48,6 +52,23 @@ transform: rotate(25deg);
 float: right;
 }
 
+/*for fetures section*/
 #features{
-padding: 7% 10%;
-    }
+padding: 4% 10%;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.icon
+{
+    font-size: 3rem;
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}

@@ -121,3 +121,15 @@ position: relative; /*setting a position for this makes its stack over the heade
 .pricing-column{
     padding: 3% 2%;
 }
+
+@media (max-width: 1028px){
+
+#title{
+    text-align: center;
+}
+
+    .header-image{
+        position: static; /*to set it to normal flow*/
+        transform: rotate(0); /*to make it upright*/
+    }
+}

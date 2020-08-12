@@ -41,9 +41,9 @@ background-color: #fff;
  .header-image{
         width: 60%;
         transform: rotate(25deg);
+    
         right: 15%;
         position: absolute;
-        
         }
     
 .header-heading{
@@ -79,9 +79,10 @@ background-color: #fff;
     
     
     /*for fetures section*/
- #features{
+ #feature{
     background-color: #fff;
     position: relative; /*setting a position for this makes its stack over the header image naturally*/
+    z-index: 1;
     }
     
     .feature-box{
@@ -109,6 +110,7 @@ background-color: #fff;
         text-align: center;
         background: linear-gradient(79deg, rgb(194, 185, 22) 18%, rgb(233, 21, 154) 91%);;
         color: #fff;
+    
     }
     
     .testimonial-image{

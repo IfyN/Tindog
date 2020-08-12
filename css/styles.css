@@ -41,7 +41,6 @@ background-color: #fff;
  .header-image{
         width: 60%;
         transform: rotate(25deg);
-    
         right: 15%;
         position: absolute;
         }
